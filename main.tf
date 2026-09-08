@@ -6,7 +6,7 @@ resource "aws_key_pair" "mykey" {
 
 resource "aws_security_group" "ports-allow" {
     name        = "allow-streamlit-100"
-    description = "Allow SSH and Jenkins access"
+    description = "Allow SSH and Python application access"
 
     # SSH (Port 22)
     ingress {
